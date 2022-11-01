@@ -33,6 +33,14 @@ function App() {
                 path="/candles"
                 element={<ProductList products={candles} type={"Candles"} />}
               />
+              <Route
+                path="/lamps/:id"
+                element={<Product products={lamps} type={"Lamps"} />}
+              />
+              <Route
+                path="/candles/:id"
+                element={<Product products={candles} type={"Candles"} />}
+              />
             </Routes>
           </main>
         </div>
