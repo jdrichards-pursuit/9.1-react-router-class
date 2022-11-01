@@ -23,3 +23,10 @@ parameter
 useParams hook
 
 - allows us to pull the parameter from the url address and use it in our component
+
+useNavigate hook
+
+- it is a function that returns a navigate function which allows us to navigate to another view
+- only use after some action is done
+- must invoke the hook first in a variable declaration
+- invoke the variable with a path as the argument, (in quotes)

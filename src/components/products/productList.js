@@ -1,6 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 export default function ProductList({ products, type }) {
+  const loggedIn = true;
+
+  if (!loggedIn) return <Navigate to="/newsletter" />;
+
   return (
     <section>
       <h2>All {type}</h2>

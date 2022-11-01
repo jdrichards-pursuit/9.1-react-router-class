@@ -34,7 +34,7 @@ function App() {
                 element={<ProductList products={candles} type={"Candles"} />}
               />
               <Route
-                path="/lamps/:id"
+                path="/lamps/:id/"
                 element={<Product products={lamps} type={"Lamps"} />}
               />
               <Route

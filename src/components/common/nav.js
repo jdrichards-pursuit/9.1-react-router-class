@@ -10,6 +10,9 @@ export default function Nav() {
         <Link to="/candles">
           <h3>Candles</h3>
         </Link>
+        <Link to="/newsletter">
+          <h3>Newsletter</h3>
+        </Link>
       </div>
     </nav>
   );
