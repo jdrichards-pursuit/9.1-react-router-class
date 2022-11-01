@@ -19,3 +19,7 @@ parameter
 - when setting up the parameter in a path, you must precede the variable with a colon. This does 2 things
   - it defines it as a parameter which is optional
   - it declares the variable
+
+useParams hook
+
+- allows us to pull the parameter from the url address and use it in our component
